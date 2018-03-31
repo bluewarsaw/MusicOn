@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MusicOn</string>
+    <string name="songs">Songs</string>
+    <string name="artists">Artists</string>
+    <string name="albums">Albums</string>
+    <string name="genres">Genres</string>
+    <string name="mapsgoing">MapsGoing</string>
+    <string name="player">Player</string>
+        </resources>

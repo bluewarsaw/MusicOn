@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+android:shape="line"
+    android:dither="true"
+    android:visible="true"
+    android:thickness="@dimen/activity_horizontal_margin">
+
+<stroke android:width="2dip"
+
+
+    android:color="@android:color/holo_orange_light"/>
+
+
+</shape>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/chaotic"
+        android:alpha="0.4"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+<ImageView
+    android:layout_width="wrap_content"
+    android:paddingLeft="29dp"
+    android:paddingRight="29dp"
+    android:layout_height="wrap_content"
+    android:src="@drawable/meteora"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="12dp">
+
+        <ImageView
+            android:id="@+id/play"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/ic_action_playback_play" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@id/shuffle"
+            android:src="@drawable/ic_action_playback_next" />
+
+        <ImageView
+            android:id="@+id/shuffle"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@id/play"
+            android:src="@drawable/ic_action_playback_schuffle" />
+
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@id/pause"
+            android:src="@drawable/ic_action_playback_prev" />
+
+        <ImageView
+            android:id="@+id/pause"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@id/play"
+            android:src="@drawable/ic_action_playback_pause" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="78dp"
+            android:fontFamily="@font/fonts"
+            android:text="Linkin Park"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/play"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/fonts"
+            android:text="Meteora"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/back_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="12dp"
+            android:alpha="0.78"
+            android:background="@drawable/back4"
+            android:fontFamily="@font/fonts"
+            android:text="Back" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
